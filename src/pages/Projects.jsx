@@ -8,6 +8,7 @@ import crypto from"../assets/images/cryptoplace.png";
 import pokemon from "../assets/images/pokemon.png";
 import weather from "../assets/images/weather.png";
 import todo from "../assets/images/Todo.png";
+import BookB from "../assets/images/BookB.png";
 
 
 const MotionDiv = motion.create('div');
@@ -211,15 +212,30 @@ const projectData = [
   },
   {
     id:6,
-    title:"Weather App",
-    description:"Weather App is a simple command-line/weather-based Python application that fetches real-time weather data for any city using an external API. It provides a quick and easy way to check current weather conditions directly from your terminal.",
-    image: weather,
+    title:"The Book Beacon",
+    description:"The project allows users to browse, search, and review a wide variety of books, as well as contribute their own recommendations to the community.",
+    image: BookB,
     tags: ["Python", "Requests", "OpenWeatherMap API"],
     githubLink: "https://github.com/arpitraj109/Weather_App",
     category: "web"
   },
   {
     id:7,
+    title:"Weather App",
+    description:"Weather App is a simple command-line/weather-based Python application that fetches real-time weather data for any city using an external API. It provides a quick and easy way to check current weather conditions directly from your terminal.",
+    image: weather,
+    tags: [
+      "Python",
+      "Django",
+      "Books",
+      "REST API",
+      "User Auth"
+    ],
+    githubLink: "https://github.com/arpitraj109/The-Book-Beacan",
+    category: "web"
+  },
+  {
+    id:8,
     title:"Todo App",
     description:"Todo App is a simple and clean task management tool that helps users add, track, and manage their daily tasks efficiently. It features an interactive UI, task completion toggles, and a responsive layout for easy usage.",
     image: todo,
